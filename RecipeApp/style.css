@@ -160,16 +160,15 @@ header input {
     background-color: rgba(0, 0, 0, 0.705);
     height: auto;
     width: 100vw;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
 }
 .detail-cont{
     background-color: white;
     width: 30vw;
     min-height: 100vh;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     margin: 10px 0;
 }
