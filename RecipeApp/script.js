@@ -121,7 +121,7 @@ searchBtn.addEventListener('click',async ()=>{
 })
 
 function showMealDetails(mealData){
-    mobileContainer.style.visibility = 'hidden';
+    mobileContainer.style.display = 'none';
     let ingArray = [];
     let i=1;
     for(let key in mealData){
@@ -156,15 +156,15 @@ function showMealDetails(mealData){
         ingCont.appendChild(newLi);
     });
     const detailView = document.getElementById('detail-view');
-    detailView.style.visibility = 'visible';
+    detailView.style.display = 'flex';
 
     removeAllChildNodes(detailView);
     detailView.appendChild(container);
 
     const backBtn = container.querySelector('#back');
     backBtn.addEventListener('click',()=>{
-        mobileContainer.style.visibility = 'visible';
-        detailView.style.visibility = 'hidden';
+        mobileContainer.style.display = 'block';
+        detailView.style.display= 'none';
     });
 }
 function removeAllChildNodes(parent) {
