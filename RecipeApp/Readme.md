@@ -1,4 +1,4 @@
-#This is dynamic and responsive Recipe app 
+**This is dynamic and responsive Recipe app 
 Using an third party api for dynamic data
 
 Features:
