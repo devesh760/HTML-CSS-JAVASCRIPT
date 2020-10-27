@@ -1,5 +1,5 @@
-**This is dynamic and responsive Recipe app 
-Using an third party api for dynamic data
+__This is dynamic and responsive Recipe app 
+Using an third party api for dynamic data__
 
 Features:
 1. search a meal's Recipe
